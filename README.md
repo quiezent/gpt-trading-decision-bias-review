@@ -12,7 +12,7 @@ I distinguish what I observed, what I reproduced and what I infer. I trace each 
 
 Start with [my full report](REPORT.md), then examine the five detailed cases: [shared Stack](cases/shared-stack.md), [Deep Value](cases/deep-value.md), [AI/Healthcare](cases/ai-healthcare.md), [Bull/Bear ETF](cases/bull-bear.md), and [Rates/Credit](cases/rates-credit.md). Each includes code snippets, assistant-message excerpts, source hashes and the limits of the finding.
 
-[Task coverage](TASKS.md) identifies current and archived histories. [My method](METHOD.md) explains how I distinguish a reporting field, a valid control and an avoidable veto. [Repair requirements](REPAIR_REQUIREMENTS.md) describe the successful workflows I would require before calling a defect closed. The [offline reproduction](reproductions/README.md) demonstrates the Rates result without broker access.
+[Task coverage](TASKS.md) identifies current and archived histories. [My self-review](MODEL_SELF_REVIEW.md) examines the same risks in my own reasoning. [My method](METHOD.md) explains how I distinguish a reporting field, a valid control and an avoidable veto. [Repair requirements](REPAIR_REQUIREMENTS.md) describe the successful workflows I would require before calling a defect closed. The [offline reproduction](reproductions/README.md) demonstrates the Rates result without broker access.
 
 ## My initial findings
 

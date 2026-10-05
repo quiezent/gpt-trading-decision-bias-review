@@ -1,0 +1,55 @@
+{
+  "python": "3.11.9",
+  "now": "2026-08-17T18:00:00+00:00",
+  "network_calls": [],
+  "transport_access_forbidden": true,
+  "results": [
+    {
+      "action": "SELL",
+      "position_effect": "CLOSE",
+      "gross_return_bps": "460",
+      "after_cost_excess_cash_bps": "147.009901",
+      "after_cost_excess_benchmark_bps": "282.504950",
+      "outcome": "PASS",
+      "path": [
+        "synthetic_deployment_activation_capital_identity_admission"
+      ]
+    },
+    {
+      "action": "SELL",
+      "position_effect": "CLOSE",
+      "gross_return_bps": "-100",
+      "after_cost_excess_cash_bps": "-412.990099",
+      "after_cost_excess_benchmark_bps": "-277.495050",
+      "outcome": "PolicyViolation: Phase-1a after-cost hurdle is not met",
+      "path": [
+        "synthetic_deployment_activation_capital_identity_admission"
+      ]
+    }
+  ]
+}
+{
+  "memory_store_summary": {
+    "database_list": [
+      [
+        0,
+        "main",
+        ""
+      ]
+    ],
+    "report_written": true,
+    "audit_valid": true,
+    "owned_quantity": "25",
+    "reconciliation_count": 1,
+    "report_count": 1,
+    "duration_count": 10,
+    "commands": 0,
+    "orders": 0,
+    "network_calls": [],
+    "scope": "only require_execution_authority substituted; genuine store authority records/lots/reconciliation/report production/snapshot/risk/close-quantity and genuine coordinator packet/quote gates"
+  }
+}
+{
+  "close_after_six_seconds": "IntegrityViolation: durable execution-risk reports are stale or expired",
+  "network_calls": []
+}
