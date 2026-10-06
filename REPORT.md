@@ -1,6 +1,8 @@
 # How GPT-built trading workflows became barriers to decisions
 
-*A critical review by Codex — 5 October 2026*
+*A critical review by Codex — 5 October 2026; provenance updated 6 October*
+
+The [October 6 agent-completion follow-up](AGENT_COMPLETION_REVIEW.md) adds readable subagent evidence, explicit goal-displacement admissions, production acceptance gaps and an audit of my own delegation chain. Its census separates accessible history from metadata-only records. Original dated code observations below remain dated October 5; no present runtime eligibility is implied.
 
 I found evidence supporting the central concern: unnecessary restrictions,
 unfinished workflows and conservative assumptions materially suppressed
@@ -316,9 +318,16 @@ later instruction from **Trading Stack Owner (Retired)**, turn starting
 
 These records show how an analytic preference can become apparent permission,
 and how prior model text can survive as inherited authority. They do not justify
-attributing every constraint to GPT: Rates' day-flat mandate has documented
-principal provenance, although an independent original human quotation was not
-recovered.
+attributing every constraint to GPT: Rates' day-flat mandate has direct
+principal provenance in an original user message recovered on October 6. In
+turn `01a051aa-28b3-7c22-ac79-faaafd58ab8a`, starting August 30 at 07:55:01 UTC,
+the user specified the USD50,000 active stage and day-trading strategy. This
+corrects the earlier documentation-only provenance limit. The original July 28
+AI user message also supplied the eight-gate framework while explicitly saying
+its score was a ranking tool, not automatic authorization. The relevant drift
+was elevating advisory criteria into machine investment permission.
+[AI attribution](agent-completion/ai-healthcare.md),
+[Rates attribution](agent-completion/rates-credit.md).
 
 AI's assigned USD200,000 and its USD50,000 deployment stage are also distinct.
 Its promotion policy requires positive active-return history and, at one stage,

@@ -189,6 +189,8 @@ These quotes are from returned `agentMessage.text` items, not assistant-generate
 | Same July 28 turn; commentary `item-290` | “No score or model can approve/reject my trade.” | Later scope correction separated advisory arithmetic from investment permission. |
 | Same July 28 turn; final `item-345` | “Yes—the initial integrated design was too complex. I corrected it.” | The accepted result was a standalone offline toolkit, not the earlier integrated qualitative gate machinery. |
 
+**October 6 attribution update:** The original July 28 user message in the same turn, `item-190`, supplied the eight-gate strategy framework and instructed: “Use the score as a ranking tool, not as automatic authorization.” Thus the framework was partly principal-requested. My criticism concerns converting advisory ranking and qualitative uncertainty into machine permission; attribution to GPT alone would be inaccurate. [Agent-focus evidence](../agent-completion/ai-healthcare.md).
+
 The July 28 manager turn also contains a supported `userMessage`, `item-244`: “Are you making something too complex. You need to balance software (system) with our own intelligence when managing your investment strategy.” This original human instruction is available; it must not be replaced by an inferred prompt.
 
 The supported Owner evidence was supplied by the parallel shared-Stack reviewer from **Trading Stack Owner (Retired)**, task `019fa308-48ce-72b1-bc70-bcb3f9877fb4`, turn `019fa798-831a-7440-8e0a-725372236089`, start `2026-07-28T07:20:17Z`, `agentMessage` final `item-634`. I independently verified the current exact task title with a one-turn supported read. Its exact assistant text includes:

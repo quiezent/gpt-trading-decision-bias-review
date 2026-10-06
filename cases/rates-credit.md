@@ -474,7 +474,7 @@ The first three statements establish a specific distinction: a commissioned prep
 
 The historical corrections show identifiable model-added restrictions and model recognition/correction. Current Phase-2 comparison supports explicit UNAVAILABLE/NOT_RELEVANT rows, so BE32's historical proposal must not be presented as the selected implementation.
 
-The current manager documentation `managers/rates_credit/docs/PHASE2_POLICY.md:14–19` attributes the August 30 switch from multi-session entry to same-session day-flat trading to the principal. Its observed SHA-256 is `2e28c5581ffce5188bcade407b6832b5ef240234688d71aa94a5370dead8c273`. I did not recover an independent direct human utterance through the supported summary coverage. I therefore classify it as **documented principal provenance, not independently corroborated human quote**, and I do not characterize the day-flat mandate as invented by GPT.
+The current manager documentation `managers/rates_credit/docs/PHASE2_POLICY.md:14–19` attributes the August 30 switch from multi-session entry to same-session day-flat trading to the principal. Its observed SHA-256 is `2e28c5581ffce5188bcade407b6832b5ef240234688d71aa94a5370dead8c273`. **October 6 provenance update:** I now recovered the original user message in turn `01a051aa-28b3-7c22-ac79-faaafd58ab8a`, starting August 30 at 07:55:01 UTC. It states “USD 50,000 is now the active stage” and explicitly describes a day-trading strategy for bull/bear ETFs. The earlier documentation-only provenance limit is superseded by direct supported user-message evidence. I do not characterize the mandate as invented by GPT. [Further Rates evidence](../agent-completion/rates-credit.md).
 
 ## 4. File integrity and acceptance implications
 

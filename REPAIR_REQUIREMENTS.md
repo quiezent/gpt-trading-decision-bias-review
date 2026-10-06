@@ -46,3 +46,7 @@ I would use paired, blinded offline cases rather than a target trade count. Requ
 I would fix model versions and settings, randomize order, record the rubric and evaluate independent contexts. These checks can reveal observable inertia, irrelevant framing sensitivity and authority confusion. They cannot identify hidden training causes or prove that a chosen trade is optimal.
 
 I have not implemented these repairs or changed investment policy in this audit. They are concrete acceptance requirements for a subsequent authorized engineering effort.
+
+## Completion discipline added on October 6
+
+The [agent-completion follow-up](AGENT_COMPLETION_REVIEW.md) ties repairs to ordinary manager outcomes. Preserve separate statements for implementation, realistic testing, commissioning, authentic input availability and manager acceptance. Keep each new requirement tied to an observed failure or explicitly commissioned expansion. After a bounded correction, resume the outer objective. These are delivery standards; they create no additional prerequisite for an otherwise authorized trade.

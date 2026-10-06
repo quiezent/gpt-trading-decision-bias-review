@@ -4,6 +4,14 @@ I assembled this inventory to make the review's coverage inspectable. The strong
 
 The main conclusions are in [REPORT.md](REPORT.md). [METHOD.md](METHOD.md) describes my evidence standard, and [REPAIR_REQUIREMENTS.md](REPAIR_REQUIREMENTS.md) describes the proposed behavioral tests.
 
+## October 6 refresh and child coverage
+
+I refreshed the same 27-role histories without adding duplicate parent reads to the 2,655-turn baseline. I added the audit root, **GPT Trading Bias Critical Review**, as a 28th task, and followed every discoverable activity-linked child identity. The combined census contains **2,575 distinct child records**: 497 with 1,202 returned turns, and 2,078 with zero returned turns. Every available cursor was exhausted. Zero-turn histories remain unavailable, and further unexposed descendants cannot be discovered.
+
+The audit family includes eight direct reviewers and ten earlier descendants. A cutoff at the October 6 root follow-up excludes newly spawned census readers; current snapshots of older review threads include later turns, separately tagged in the metadata. This bounds recursion instead of indefinitely reviewing the reviewers of this review. [Full follow-up](AGENT_COMPLETION_REVIEW.md), [metadata](evidence/agent-census-20261006.json).
+
+The refreshed surface exposed additional original user messages. I now directly corroborate AI’s advisory ranking framework and Rates’ day-trading commission. Earlier limitations below describe the October 5 retrieval and remain historical context.
+
 ## What I could inspect
 
 I reviewed supported history from **27 discovered portfolio-role tasks: 2,655 returned turn summaries across 278 cursor pages**. The review team followed every available `read_thread` cursor for these tasks until `hasMore=false`. This inventory covers ten roles in the current commissioned roster, twelve archived tasks in the main portfolio project, and five related earlier tasks found through explicit predecessor references. One of those five is also present in the archived listing under its separate historical scheduling project.

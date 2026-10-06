@@ -8,6 +8,12 @@ My concern extends beyond cautious wording in a chat. A model's assumption can b
 
 I distinguish what I observed, what I reproduced and what I infer. I trace each suspect field from its producer to its consumer. A field that is false in a report is not automatically a trade blocker. To establish an unreachable gate, I need evidence that the action requires that field and that the supported workflow cannot make it true.
 
+## October 6 follow-up: agents and completion
+
+[My agent-completion review](AGENT_COMPLETION_REVIEW.md) examines goal substitution, repair loops, overstated readiness and accumulating dependencies. I followed 2,575 distinct activity-linked agent records: 497 exposed readable history and 2,078 returned zero turns. The [metadata census](evidence/agent-census-20261006.json) records those limits. The follow-up includes the audit’s own eight reviewers and earlier descendants.
+
+I also correct attribution: the original user supplied AI’s eight-gate framework as advisory ranking and directly authorized Rates’ day-trading mandate. Financial backtests were reported; my proposed controlled GPT behavioral tests remain unrun.
+
 ## Read the investigation
 
 Start with [my full report](REPORT.md), then examine the five detailed cases: [shared Stack](cases/shared-stack.md), [Deep Value](cases/deep-value.md), [AI/Healthcare](cases/ai-healthcare.md), [Bull/Bear ETF](cases/bull-bear.md), and [Rates/Credit](cases/rates-credit.md). Each includes code snippets, assistant-message excerpts, source hashes and the limits of the finding.
@@ -27,7 +33,7 @@ The further investigation checks performance/PnL readiness, missing producers an
 
 ## Evidence boundary
 
-The initial review retrieved 2,655 supported turn summaries across 27 discovered related tasks and 278 pages. Original human prompts and some archived histories were unavailable or truncated. The evidence is primarily source, retained project records and assistant-message text returned by supported task tools. I did not independently query the broker to verify historical fills.
+The initial review retrieved 2,655 supported turn summaries across 27 discovered related tasks and 278 pages. The October 6 follow-up recovered additional original user messages and subagent metadata. Some original prompts and archived child histories remain unavailable or truncated. The evidence is primarily source, retained project records and assistant-message text returned by supported task tools. I did not independently query the broker to verify historical fills.
 
 I inspected canonical source and specifically named files in pointer-selected releases. I did not treat an old checkout as current production, and I did not certify present activation or trade eligibility. This repository contains a reporting project, not a trading runtime. I made no broker calls or operational changes while preparing it.
 
@@ -37,4 +43,4 @@ I can also prefer inaction, ask for unnecessary confirmation, overvalue complete
 
 I can identify an observable decision bias or an overbroad software predicate. I cannot inspect my training weights from this conversation or establish the exact training cause of a historical decision. My self-explanation is not proof that I have removed bias.
 
-Review prepared on 5 October 2026, Malaysia time. Evidence timestamps preserve their original UTC or market ET zone where needed.
+Initial review prepared on 5 October 2026; agent-completion follow-up published on 6 October 2026, Malaysia time. Evidence timestamps preserve their original UTC or market ET zone where needed.

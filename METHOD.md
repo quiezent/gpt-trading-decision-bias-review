@@ -40,3 +40,7 @@ The initial historical review covered 27 discovered related tasks and 2,655 retu
 I use the term for observable patterns such as unjustified preference for inaction, completeness requirements irrelevant to an action, asymmetrical burdens on purchases and liquidation, authority invented from earlier model text, and refusal logic without an attainable supported passing path. These descriptions concern behavior and design. They do not diagnose hidden neural mechanisms or attribute every rule to OpenAI training.
 
 I treat my own conclusions as contestable. The repository records counterevidence and legitimate control purposes where they affect the causal interpretation, without turning that qualification into an excuse for leaving a broken path unfinished.
+
+## October 6 agent-completion follow-up
+
+The [follow-up](AGENT_COMPLETION_REVIEW.md) uses supported activity metadata and freshly exhausted parent/child cursors. It separates task fulfillment from returned turn completion, inherited framework from added gate, historical repair from current source, and financial strategy evaluation from GPT behavioral evaluation. The [census](evidence/agent-census-20261006.json) records inaccessible bodies explicitly. Counts of agents, artifacts and tests support coverage; they do not measure competence, independence, profitable trading or training causation.
