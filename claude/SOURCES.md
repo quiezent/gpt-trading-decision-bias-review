@@ -264,6 +264,20 @@ Cognition (29 September 2025). *Rebuilding Devin for Claude Sonnet 4.5.* https:/
 
 ---
 
+## Market price data (used in the 14 October follow-up)
+
+### yahoo_chart_api
+Yahoo Finance. *Chart API v8* (public, undocumented endpoint). https://query1.finance.yahoo.com/v8/finance/chart/HPE?interval=1d&range=3mo (symbol and interval vary; 5-minute bars with `interval=5m&range=60d`). Accessed 14 October 2026.
+- **Shows:** daily close and adjusted close, and 5-minute consolidated-tape bars, for the US stocks and ETFs in [PORTFOLIO_FOLLOWUP.md](PORTFOLIO_FOLLOWUP.md). I opened it myself and confirmed the HPE closes for 4 Sep, 14 Sep and 12 Oct 2026 (52.00, 55.41, 70.33), the IEF closes for 25 Aug and 23 Sep (93.51, 90.19; the IEF percentages there use adjusted closes, which include the 1 Sep dividend), and the 14 Sep 5-minute highs for ANET and BIRK behind its statement that those two orders never reached their limits. For [DEEP_VALUE_AND_PA_FOLLOWUP.md](DEEP_VALUE_AND_PA_FOLLOWUP.md) I re-fetched ACN, DOCU, CMCSA and SPY daily bars and confirmed the 13 Jul → 17 Sep adjusted returns (+37.4%, +41.6%, −4.4%, +1.8%) and the 14 Jul fill and 29 Jul / 13 Aug take-profit dates.
+- **Limits:** undocumented and unofficial; values can be revised; 5-minute bars are kept for about 60 days, and paper fills are simulated by the broker, not taken from this tape. Type: data.
+
+### nasdaq_historical_api
+Nasdaq, Inc. *Historical quotes* (JSON behind nasdaq.com's historical-data pages). https://api.nasdaq.com/api/quote/HPE/historical?assetclass=stocks&fromdate=2026-09-01&todate=2026-10-13&limit=60. Accessed 14 October 2026.
+- **Shows:** daily OHLC and volume. Used only to cross-check Yahoo closes; I opened it and confirmed the same three HPE closes.
+- **Limits:** undocumented endpoint; unadjusted prices. Type: data.
+
+---
+
 ## Further reading (checked, not cited in the text)
 
 ### openai2025_gpt52codex_card
