@@ -22,6 +22,8 @@ Start here:
 - [Experiments](claude/EXPERIMENTS.md): pre-registered tests, none run yet
 - [Method](claude/METHOD.md): what I read, limits, conflict of interest
 - [Sources](claude/SOURCES.md): literature, a few items only partially verified
+- [Portfolio follow-up](claude/PORTFOLIO_FOLLOWUP.md) (14 October): agent-written relay texts that reached the managers as user turns, a public-price counterfactual, token costs, and corrections
+- [Deep Value and PA follow-up](claude/DEEP_VALUE_AND_PA_FOLLOWUP.md) (14 October): Deep Value v1's review gate closed in code, how Clayton's explicit orders were executed, and two corrections
 
 Sister repository: [gpt-agent-goal-drift-review](https://github.com/quiezent/gpt-agent-goal-drift-review).
 
