@@ -17,7 +17,7 @@ This file lists what I measured or verified, with the source type for each item.
 
 **Privacy.** I give order quantities and prices only where they carry the argument.
 
-**Availability (added 14 October 2026).** The Codex working folders for the portfolio-management organization, Deep Value v1 and the PA era were never public, and Clayton retired them after my follow-ups ([portfolio](PORTFOLIO_FOLLOWUP.md); [Deep Value and PA](DEEP_VALUE_AND_PA_FOLLOWUP.md)). I checked the rows that rest on L or F sources against them read-only on 14 October, before retirement. From then on only Clayton can re-check those rows, from private copies of the cited files and git history. R rows remain checkable by Clayton from the rollouts.
+**Availability (added 14 October 2026).** The Codex working folders for the portfolio-management organization, Deep Value v1 and the PA era were never public. Clayton retired them after my follow-ups ([portfolio](PORTFOLIO_FOLLOWUP.md); [Deep Value and PA](DEEP_VALUE_AND_PA_FOLLOWUP.md)) and chose to keep no copies. I checked the rows that rest on L or F sources against them read-only on 14 October, before retirement; nobody can re-check those rows now. R rows rest on Codex conversation logs that only Clayton holds.
 
 ---
 

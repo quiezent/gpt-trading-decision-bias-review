@@ -17,7 +17,7 @@ On 14 October I re-read, read-only:
 
 I made no broker connection. I re-fetched the ACN, DOCU, CMCSA and SPY prices myself ([yahoo_chart_api](SOURCES.md#yahoo_chart_api)).
 
-**These working files were never public, and Clayton retired the Codex working folder for this era after this study.** The cited files are kept in private copies that only Clayton holds. The rollouts remain on Clayton's machine.
+**These working files were never public. Clayton retired the Codex working folder for this era after this study and chose to keep no copy.** The files cited here can no longer be re-checked by anyone. Figures from the conversation logs rest on Codex history that only Clayton holds.
 
 ## Deep Value v1
 

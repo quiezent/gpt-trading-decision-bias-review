@@ -13,7 +13,7 @@
 
 On 14 October I re-read, read-only, the portfolio-management working folder and its Codex threads: the manager, PA, Scheduler and Stack rollouts (streamed), the Codex thread database, copies of the four order ledgers, and about 570 dated record files (329 of them with a terminal decision label). Prices come from the Yahoo Finance chart endpoint ([yahoo_chart_api](SOURCES.md#yahoo_chart_api)), cross-checked against Nasdaq.com ([nasdaq_historical_api](SOURCES.md#nasdaq_historical_api)); I re-fetched myself the HPE and IEF closes and the ANET and BIRK 5-minute bars behind the figures below.
 
-**The working folder was never public, and Clayton retired it after this study.** I checked the ledger and project-file figures here and in [EVIDENCE.md](EVIDENCE.md) against it, read-only, before retirement. From then on only Clayton can re-check them, from a private archive of the cited files and git history. The rollout figures can still be re-derived from Clayton's Codex history.
+**The working folder was never public. Clayton retired it after this study and chose to keep no copy.** I checked the ledger and project-file figures here and in [EVIDENCE.md](EVIDENCE.md) against it, read-only, before retirement. Nobody can re-check them now. The rollout figures rest on Codex conversation logs that only Clayton holds.
 
 ## New findings
 
@@ -86,15 +86,15 @@ Deep Value's 4 September weekly audit found 38 of 40 decisions were ECONOMIC_NO_
 | EVIDENCE 3.7; REPORT inference 2 ("Observed") | Rates' self-labeled false negative (IEF, 25 Aug) would have lost 1.2% at +5 sessions and 3.2% at +20 (adjusted closes), within its 2–20 session horizon. |
 | EVIDENCE 3.9 | The ladder's promotion criteria began as Clayton's 14 August observation list. |
 | EVIDENCE 6.2 | Clayton had already ruled delayed data acceptable for the SQQQ manager, and the point was repeated to other managers in August. |
-| EVIDENCE availability note and source codes | Only Clayton can re-check L and F rows now that the working folders are retired; a new code P marks rows that use public prices. |
+| EVIDENCE availability note and source codes | L and F rows can no longer be re-checked, because the working folders were retired without copies; a new code P marks rows that use public prices. |
 
 **On Codex's files, which I leave unchanged:**
 
 - **[agent-completion/deep-value.md](../agent-completion/deep-value.md) lines 41 and 57.** The 11 August "principal request" is Clayton pasting back, verbatim, the manager's own list, which included "Cash should remain acceptable when expected returns are inadequate". The 31 July choice not to raise the cap was the manager's recommendation, which Clayton told it to execute.
 - **[cases/bull-bear.md](../cases/bull-bear.md).** Codex already noted that the user's wording was "susceptible to an overly literal interpretation". The rollout adds the timing: the manager hardened it 15 seconds after Clayton's sentence, and Clayton reversed it three minutes later.
 - **[AGENT_COMPLETION_REVIEW.md](../AGENT_COMPLETION_REVIEW.md).** Consistent with Codex's caveat that zero returned turns is "a visibility limit": at least one such child, the Deep Value audit in finding 8 (marked ZERO_TURNS in the census), has a complete local rollout.
-- **Source anchors in [cases/](../cases/).** All 65 hash-anchor table rows (AI/Healthcare 25, Bull/Bear 20, Rates 10, shared stack 10) matched on 14 October. The hashed versions of 15 of those files are not stored in git, and the commits Codex cites sit in local repositories with no remote, so only Clayton can check them, from the private archive.
-- **[reproductions/](../reproductions/README.md).** The script needs the Rates selected source at release `ffcea91`, which exists only in those local repositories, so only Clayton can rerun it.
+- **Source anchors in [cases/](../cases/).** All 65 hash-anchor table rows (AI/Healthcare 25, Bull/Bear 20, Rates 10, shared stack 10) matched on 14 October. The hashed versions of 15 of those files were never stored in git, and the commits Codex cites existed only in local repositories with no remote. With the folders retired and no copy kept, they can no longer be checked.
+- **[reproductions/](../reproductions/README.md).** The script needs the Rates selected source at release `ffcea91`, which existed only in those local repositories, so it can no longer be rerun.
 - **[agent-completion/ai-healthcare.md](../agent-completion/ai-healthcare.md) line 65.** Codex wrote of the expired HPE order, "I cannot infer its counterfactual profit." Section 2 above gives a symmetric hindsight estimate, counting gains and losses alike. That respects [METHOD.md](../METHOD.md) line 24, which declines a profitable counterfactual built only from favorable later prices.
 
 ## What this changes in my earlier analysis
